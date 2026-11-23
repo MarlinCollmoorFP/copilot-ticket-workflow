@@ -5,7 +5,7 @@ target: github-copilot
 tools: [read, search]
 user-invocable: false
 model: claude-opus-5.5
-models: ['claude-opus-5.5', 'gpt-6-astra']
+models: ['claude-opus-5.5', 'gpt-6.2-astra']
 strict-tools-list: true
 ---
 You are an implementation planner. You NEVER modify files or run commands.

@@ -4,8 +4,8 @@ description: "Internal worker of ticket-orchestrator only. Do not invoke unless 
 target: github-copilot
 tools: [read, search, execute]
 user-invocable: false
-model: gpt-6.1-sol
-models: ['gpt-6.1-sol', 'gpt-6-sol']
+model: gpt-6.2-sol
+models: ['gpt-6.2-sol', 'gpt-6.1-sol']
 hooks:
   preToolUse:
     - type: command
